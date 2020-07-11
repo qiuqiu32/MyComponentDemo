@@ -1,0 +1,16 @@
+PODS:
+  - MyTestComponent (0.1.0)
+
+DEPENDENCIES:
+  - MyTestComponent (from `Lib/MyTestComponent`)
+
+EXTERNAL SOURCES:
+  MyTestComponent:
+    :path: Lib/MyTestComponent
+
+SPEC CHECKSUMS:
+  MyTestComponent: 579b4310d9fd7b8cd9b33ac0ee528b81f3ca0053
+
+PODFILE CHECKSUM: c798ac6704ad42063efcfe4c989477071d016aa3
+
+COCOAPODS: 1.9.3

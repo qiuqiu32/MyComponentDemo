@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-
+#import "QSComponent.h"
 @interface ViewController ()
 
 @end
@@ -17,6 +17,8 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view.
+    QSComponent *com = [[QSComponent alloc] init];
+    [com QSComponentA];
 }
 
 
