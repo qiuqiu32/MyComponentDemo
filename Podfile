@@ -6,7 +6,7 @@ target 'MyComponentDemo' do
   use_frameworks!
 
   # Pods for MyComponentDemo
-  pod 'MyTestComponent', :path => 'Lib/MyTestComponent'
+  pod 'MyTestComponent'
 
   target 'MyComponentDemoTests' do
     inherit! :search_paths

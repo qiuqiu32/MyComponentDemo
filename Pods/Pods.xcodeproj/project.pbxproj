@@ -7,15 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0D81C8D10FC73DE96C35315BFB34EED1 /* QSComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = A729CE3602F718AF86E5ECD172B6C1CA /* QSComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0D81C8D10FC73DE96C35315BFB34EED1 /* QSComponent.h in Headers */ = {isa = PBXBuildFile; fileRef = 555644C27D6C53BDDC15C486D2D4E943 /* QSComponent.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		5A81CBC2347983E2EFD7E02C3DCB2DB4 /* Pods-MyComponentDemo-MyComponentDemoUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C55B330D9A4AF192C53758AA3029244 /* Pods-MyComponentDemo-MyComponentDemoUITests-dummy.m */; };
 		6A028407CF9AB1F4A6847F5DB4E0BB6A /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		7674DEE00E7FBA633CA2630073D476FE /* Pods-MyComponentDemo-MyComponentDemoUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = ED03FA395E533F97553956C50AED6452 /* Pods-MyComponentDemo-MyComponentDemoUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		7781E0B4FBC8F2BD75BB60DD34EE172B /* Pods-MyComponentDemoTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 0461A79ECAE3236A9A5AE3A5AF969AC1 /* Pods-MyComponentDemoTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		883E91F1453BCFB96B6B50F66F0B7974 /* Pods-MyComponentDemo-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = BF3C742D2CE3FB7F20CF43C072C98571 /* Pods-MyComponentDemo-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		96DD02538222E3909ABBEAA05BD47A4A /* QSComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 4664F8530BE6F9E4A79C690AA83E8A90 /* QSComponent.m */; };
-		98E75561DBB10721748D54DDAF218292 /* MyTestComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 14A3138DD9D55166A24E62FB6D378A1A /* MyTestComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		9FD8DCFC1FACD83D0784322551E699F8 /* MyTestComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DD6928ABDF0EE80F266D3DD64DD0481F /* MyTestComponent-dummy.m */; };
+		96DD02538222E3909ABBEAA05BD47A4A /* QSComponent.m in Sources */ = {isa = PBXBuildFile; fileRef = 7943FCD36BBEA8D5304D9D398B9FFA6F /* QSComponent.m */; };
+		98E75561DBB10721748D54DDAF218292 /* MyTestComponent-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = AFD89CAFCA4712F5E2F82C87AE66A076 /* MyTestComponent-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9FD8DCFC1FACD83D0784322551E699F8 /* MyTestComponent-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E709B5120A48203BF9A025DCBCC8721 /* MyTestComponent-dummy.m */; };
 		9FE3BD78C425C17E618836D897ED1BCF /* Pods-MyComponentDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D6DE5F1F06A97E885C5D070401D6BCDB /* Pods-MyComponentDemo-dummy.m */; };
 		A7E35989234A74E386DD5532C63790DC /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */; };
 		A824775D325CBD4A407CA018AA0925EB /* Pods-MyComponentDemoTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E4FA069C3BF4F38B6878381A787D5A9 /* Pods-MyComponentDemoTests-dummy.m */; };
@@ -24,68 +24,65 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		41A610BA41CB3C3864FEDF9A319A000C /* PBXContainerItemProxy */ = {
+		0D77772C5AE3BBEAED28103C07060551 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = AEC47BD492705E4CAE42622CD1797C52;
 			remoteInfo = MyTestComponent;
 		};
-		63B978E514FF39C49ED966D149BC51A0 /* PBXContainerItemProxy */ = {
+		2098FE8699102BFFB10705EB15BCD9AF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AEC47BD492705E4CAE42622CD1797C52;
+			remoteInfo = MyTestComponent;
+		};
+		F8DB4B7B233336B0107463A36A9220A7 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = 7FF6313E33C13FEA045695944D4A400E;
 			remoteInfo = "Pods-MyComponentDemo";
 		};
-		D669CECD26FE0CBDB49652A0EECA7162 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = BFDFE7DC352907FC980B868725387E98 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = AEC47BD492705E4CAE42622CD1797C52;
-			remoteInfo = MyTestComponent;
-		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
 		03CFC7A48686257AA0831CDB2CEAEBB5 /* Pods-MyComponentDemo-MyComponentDemoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyComponentDemo-MyComponentDemoUITests.release.xcconfig"; sourceTree = "<group>"; };
 		0461A79ECAE3236A9A5AE3A5AF969AC1 /* Pods-MyComponentDemoTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyComponentDemoTests-umbrella.h"; sourceTree = "<group>"; };
+		0C6A6FF8DFE2BBBE64950C755E033435 /* MyTestComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyTestComponent.modulemap; sourceTree = "<group>"; };
 		0E4FA069C3BF4F38B6878381A787D5A9 /* Pods-MyComponentDemoTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyComponentDemoTests-dummy.m"; sourceTree = "<group>"; };
-		14A3138DD9D55166A24E62FB6D378A1A /* MyTestComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyTestComponent-umbrella.h"; sourceTree = "<group>"; };
-		197600A9963D99C38F60F78873EB61F7 /* MyTestComponent.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; path = MyTestComponent.podspec; sourceTree = "<group>"; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		3212113385A8FBBDB272BD23C409FF61 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS12.2.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		376F772152402555C0C33F3A26817275 /* MyTestComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyTestComponent.debug.xcconfig; sourceTree = "<group>"; };
 		3ADF80D0F5AF985872620768BDA58BC9 /* Pods_MyComponentDemo_MyComponentDemoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyComponentDemo_MyComponentDemoUITests.framework; path = "Pods-MyComponentDemo-MyComponentDemoUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		43232DE3E739FAFB3A0C72EE11029A69 /* Pods-MyComponentDemoTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemoTests-acknowledgements.plist"; sourceTree = "<group>"; };
 		4380B6059D39C4B5B0EAEF8533EC42C9 /* Pods-MyComponentDemo-MyComponentDemoUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyComponentDemo-MyComponentDemoUITests.modulemap"; sourceTree = "<group>"; };
 		448B671DEE9071CBA6638A1568CF533B /* Pods-MyComponentDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyComponentDemoTests.release.xcconfig"; sourceTree = "<group>"; };
 		463B820885E1FE4D8A41F39B6D7B0B99 /* Pods-MyComponentDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyComponentDemo.release.xcconfig"; sourceTree = "<group>"; };
-		4664F8530BE6F9E4A79C690AA83E8A90 /* QSComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSComponent.m; path = MyTestComponent/Classes/QSComponent.m; sourceTree = "<group>"; };
+		467C59592164FA07C5A0447427AF28C5 /* MyTestComponent.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyTestComponent.debug.xcconfig; sourceTree = "<group>"; };
 		47917F70B448268767AA9E62C5C9E9C5 /* Pods-MyComponentDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyComponentDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		494ABF59BB308EE1F36D30B698B3237D /* Pods-MyComponentDemoTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyComponentDemoTests.modulemap"; sourceTree = "<group>"; };
-		4C4A5815C640670431BB1E59120451B5 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
 		50BD2D18D9683B9BD1427AA2828E0191 /* Pods_MyComponentDemo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyComponentDemo.framework; path = "Pods-MyComponentDemo.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
-		51239896C112D95AE0F07385BE66EEB0 /* MyTestComponent.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = MyTestComponent.modulemap; sourceTree = "<group>"; };
 		52604CB95AC21A2B218D6EBE33B32D67 /* Pods-MyComponentDemo-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemo-Info.plist"; sourceTree = "<group>"; };
+		555644C27D6C53BDDC15C486D2D4E943 /* QSComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSComponent.h; path = MyTestComponent/Classes/QSComponent.h; sourceTree = "<group>"; };
 		59694981D7CE57E84489C3356D22C0CE /* Pods-MyComponentDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyComponentDemo-frameworks.sh"; sourceTree = "<group>"; };
+		5E709B5120A48203BF9A025DCBCC8721 /* MyTestComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyTestComponent-dummy.m"; sourceTree = "<group>"; };
 		60279B4F6C725443D16A77BABEA9E088 /* Pods-MyComponentDemo-MyComponentDemoUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemo-MyComponentDemoUITests-acknowledgements.plist"; sourceTree = "<group>"; };
 		64FC7DD60D0536954232AEC42368D685 /* Pods-MyComponentDemo-MyComponentDemoUITests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemo-MyComponentDemoUITests-Info.plist"; sourceTree = "<group>"; };
-		6730DC42E847E242DB021F9F3266D17E /* MyTestComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyTestComponent-Info.plist"; sourceTree = "<group>"; };
+		714F4F071B6B29C8D8A10C8CBC69ED50 /* MyTestComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyTestComponent-prefix.pch"; sourceTree = "<group>"; };
 		74988DA6954294C0C8280E6307F3D07D /* Pods-MyComponentDemoTests-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemoTests-Info.plist"; sourceTree = "<group>"; };
+		7943FCD36BBEA8D5304D9D398B9FFA6F /* QSComponent.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = QSComponent.m; path = MyTestComponent/Classes/QSComponent.m; sourceTree = "<group>"; };
+		7ADEFB03E7C1D7AA2844ABFB2C497101 /* MyTestComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyTestComponent.release.xcconfig; sourceTree = "<group>"; };
 		7C6E218BF1F640A76D87486310654700 /* Pods-MyComponentDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyComponentDemo.debug.xcconfig"; sourceTree = "<group>"; };
 		8638E8AA52A022471F36629D7CF052F4 /* Pods_MyComponentDemoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_MyComponentDemoTests.framework; path = "Pods-MyComponentDemoTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
 		8C61FB86DA8FCDD9F8F8D2F0A502CEC2 /* Pods-MyComponentDemo-MyComponentDemoUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-MyComponentDemo-MyComponentDemoUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
 		9884FEBFFC43BAB4F311390C8D3D1BDB /* Pods-MyComponentDemo.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.module; path = "Pods-MyComponentDemo.modulemap"; sourceTree = "<group>"; };
 		9C55B330D9A4AF192C53758AA3029244 /* Pods-MyComponentDemo-MyComponentDemoUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyComponentDemo-MyComponentDemoUITests-dummy.m"; sourceTree = "<group>"; };
 		9D940727FF8FB9C785EB98E56350EF41 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; indentWidth = 2; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; tabWidth = 2; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		A03A600B7BD68DA77E66E11F6404C891 /* MyTestComponent.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = MyTestComponent.release.xcconfig; sourceTree = "<group>"; };
-		A729CE3602F718AF86E5ECD172B6C1CA /* QSComponent.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = QSComponent.h; path = MyTestComponent/Classes/QSComponent.h; sourceTree = "<group>"; };
-		BB4666C43E5707F58EE9E98ADD4F7515 /* MyTestComponent-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyTestComponent-prefix.pch"; sourceTree = "<group>"; };
+		AFD89CAFCA4712F5E2F82C87AE66A076 /* MyTestComponent-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "MyTestComponent-umbrella.h"; sourceTree = "<group>"; };
+		B70BE2731F405D674F8D7BC13B15FF96 /* MyTestComponent-Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "MyTestComponent-Info.plist"; sourceTree = "<group>"; };
 		BF3C742D2CE3FB7F20CF43C072C98571 /* Pods-MyComponentDemo-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyComponentDemo-umbrella.h"; sourceTree = "<group>"; };
 		C49F46B0ADD6FBCD9E9AFF5A6B99F54C /* Pods-MyComponentDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-MyComponentDemo-acknowledgements.plist"; sourceTree = "<group>"; };
 		D6DE5F1F06A97E885C5D070401D6BCDB /* Pods-MyComponentDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MyComponentDemo-dummy.m"; sourceTree = "<group>"; };
-		DD6928ABDF0EE80F266D3DD64DD0481F /* MyTestComponent-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "MyTestComponent-dummy.m"; sourceTree = "<group>"; };
-		DE56778F2911FE50F2FAFB37DC7E6802 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
 		EAFD30176A7EDB0EB6681596CA0D97CD /* Pods-MyComponentDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MyComponentDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
 		ED03FA395E533F97553956C50AED6452 /* Pods-MyComponentDemo-MyComponentDemoUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MyComponentDemo-MyComponentDemoUITests-umbrella.h"; sourceTree = "<group>"; };
 		F0DD6F694B1D98A550877F05740379AF /* Pods-MyComponentDemo-MyComponentDemoUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-MyComponentDemo-MyComponentDemoUITests-frameworks.sh"; sourceTree = "<group>"; };
@@ -130,6 +127,17 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		293D2053B64B2C60A5E00419C41CF293 /* MyTestComponent */ = {
+			isa = PBXGroup;
+			children = (
+				555644C27D6C53BDDC15C486D2D4E943 /* QSComponent.h */,
+				7943FCD36BBEA8D5304D9D398B9FFA6F /* QSComponent.m */,
+				8E01EA9C53D052F108236B6E7E111D9E /* Support Files */,
+			);
+			name = MyTestComponent;
+			path = MyTestComponent;
+			sourceTree = "<group>";
+		};
 		31337E3FB5D3D015E334D3AF2F6D7445 /* Pods-MyComponentDemoTests */ = {
 			isa = PBXGroup;
 			children = (
@@ -146,16 +154,19 @@
 			path = "Target Support Files/Pods-MyComponentDemoTests";
 			sourceTree = "<group>";
 		};
-		6EB58A831E6A7F49884864E7B20862B1 /* MyTestComponent */ = {
+		8E01EA9C53D052F108236B6E7E111D9E /* Support Files */ = {
 			isa = PBXGroup;
 			children = (
-				A729CE3602F718AF86E5ECD172B6C1CA /* QSComponent.h */,
-				4664F8530BE6F9E4A79C690AA83E8A90 /* QSComponent.m */,
-				D61DA2ABF270A993C6F6BA39EBFF32C6 /* Pod */,
-				EAF3BC3E9715B2B098D1D13440135AFB /* Support Files */,
+				0C6A6FF8DFE2BBBE64950C755E033435 /* MyTestComponent.modulemap */,
+				5E709B5120A48203BF9A025DCBCC8721 /* MyTestComponent-dummy.m */,
+				B70BE2731F405D674F8D7BC13B15FF96 /* MyTestComponent-Info.plist */,
+				714F4F071B6B29C8D8A10C8CBC69ED50 /* MyTestComponent-prefix.pch */,
+				AFD89CAFCA4712F5E2F82C87AE66A076 /* MyTestComponent-umbrella.h */,
+				467C59592164FA07C5A0447427AF28C5 /* MyTestComponent.debug.xcconfig */,
+				7ADEFB03E7C1D7AA2844ABFB2C497101 /* MyTestComponent.release.xcconfig */,
 			);
-			name = MyTestComponent;
-			path = ../Lib/MyTestComponent;
+			name = "Support Files";
+			path = "../Target Support Files/MyTestComponent";
 			sourceTree = "<group>";
 		};
 		911501118C12F611DC08DE194A7C4337 /* Pods-MyComponentDemo-MyComponentDemoUITests */ = {
@@ -192,14 +203,6 @@
 			path = "Target Support Files/Pods-MyComponentDemo";
 			sourceTree = "<group>";
 		};
-		AA3B5F746055E883F8EFA33F0529D2A0 /* Development Pods */ = {
-			isa = PBXGroup;
-			children = (
-				6EB58A831E6A7F49884864E7B20862B1 /* MyTestComponent */,
-			);
-			name = "Development Pods";
-			sourceTree = "<group>";
-		};
 		AFF6646A4E837AA961EE89069511C468 /* Targets Support Files */ = {
 			isa = PBXGroup;
 			children = (
@@ -208,6 +211,14 @@
 				31337E3FB5D3D015E334D3AF2F6D7445 /* Pods-MyComponentDemoTests */,
 			);
 			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B0FC867D5CA2B04418DC5209B0594091 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				293D2053B64B2C60A5E00419C41CF293 /* MyTestComponent */,
+			);
+			name = Pods;
 			sourceTree = "<group>";
 		};
 		C0834CEBB1379A84116EF29F93051C60 /* iOS */ = {
@@ -222,8 +233,8 @@
 			isa = PBXGroup;
 			children = (
 				9D940727FF8FB9C785EB98E56350EF41 /* Podfile */,
-				AA3B5F746055E883F8EFA33F0529D2A0 /* Development Pods */,
 				D210D550F4EA176C3123ED886F8F87F5 /* Frameworks */,
+				B0FC867D5CA2B04418DC5209B0594091 /* Pods */,
 				FCA816BFFBB20A30F451AF47B44F6A32 /* Products */,
 				AFF6646A4E837AA961EE89069511C468 /* Targets Support Files */,
 			);
@@ -235,31 +246,6 @@
 				C0834CEBB1379A84116EF29F93051C60 /* iOS */,
 			);
 			name = Frameworks;
-			sourceTree = "<group>";
-		};
-		D61DA2ABF270A993C6F6BA39EBFF32C6 /* Pod */ = {
-			isa = PBXGroup;
-			children = (
-				4C4A5815C640670431BB1E59120451B5 /* LICENSE */,
-				197600A9963D99C38F60F78873EB61F7 /* MyTestComponent.podspec */,
-				DE56778F2911FE50F2FAFB37DC7E6802 /* README.md */,
-			);
-			name = Pod;
-			sourceTree = "<group>";
-		};
-		EAF3BC3E9715B2B098D1D13440135AFB /* Support Files */ = {
-			isa = PBXGroup;
-			children = (
-				51239896C112D95AE0F07385BE66EEB0 /* MyTestComponent.modulemap */,
-				DD6928ABDF0EE80F266D3DD64DD0481F /* MyTestComponent-dummy.m */,
-				6730DC42E847E242DB021F9F3266D17E /* MyTestComponent-Info.plist */,
-				BB4666C43E5707F58EE9E98ADD4F7515 /* MyTestComponent-prefix.pch */,
-				14A3138DD9D55166A24E62FB6D378A1A /* MyTestComponent-umbrella.h */,
-				376F772152402555C0C33F3A26817275 /* MyTestComponent.debug.xcconfig */,
-				A03A600B7BD68DA77E66E11F6404C891 /* MyTestComponent.release.xcconfig */,
-			);
-			name = "Support Files";
-			path = "../../Pods/Target Support Files/MyTestComponent";
 			sourceTree = "<group>";
 		};
 		FCA816BFFBB20A30F451AF47B44F6A32 /* Products */ = {
@@ -324,7 +310,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				70C93E8C64DB9975CF5A562DEBD503FA /* PBXTargetDependency */,
+				C5BCBA3DB29784A7DCF9FC4C3497A172 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyComponentDemoTests";
 			productName = "Pods-MyComponentDemoTests";
@@ -343,7 +329,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F0D6F1507AACC46E14FBD26E650E33C3 /* PBXTargetDependency */,
+				6732D9900FC296BB93E28D05EF860BA7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyComponentDemo-MyComponentDemoUITests";
 			productName = "Pods-MyComponentDemo-MyComponentDemoUITests";
@@ -362,7 +348,7 @@
 			buildRules = (
 			);
 			dependencies = (
-				F23FB8F62C5A90E0013B817C665EC315 /* PBXTargetDependency */,
+				37535DA187F9CBEF39F6059028FDF4C7 /* PBXTargetDependency */,
 			);
 			name = "Pods-MyComponentDemo";
 			productName = "Pods-MyComponentDemo";
@@ -485,23 +471,23 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		70C93E8C64DB9975CF5A562DEBD503FA /* PBXTargetDependency */ = {
+		37535DA187F9CBEF39F6059028FDF4C7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyTestComponent;
+			target = AEC47BD492705E4CAE42622CD1797C52 /* MyTestComponent */;
+			targetProxy = 2098FE8699102BFFB10705EB15BCD9AF /* PBXContainerItemProxy */;
+		};
+		6732D9900FC296BB93E28D05EF860BA7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = MyTestComponent;
+			target = AEC47BD492705E4CAE42622CD1797C52 /* MyTestComponent */;
+			targetProxy = 0D77772C5AE3BBEAED28103C07060551 /* PBXContainerItemProxy */;
+		};
+		C5BCBA3DB29784A7DCF9FC4C3497A172 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = "Pods-MyComponentDemo";
 			target = 7FF6313E33C13FEA045695944D4A400E /* Pods-MyComponentDemo */;
-			targetProxy = 63B978E514FF39C49ED966D149BC51A0 /* PBXContainerItemProxy */;
-		};
-		F0D6F1507AACC46E14FBD26E650E33C3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MyTestComponent;
-			target = AEC47BD492705E4CAE42622CD1797C52 /* MyTestComponent */;
-			targetProxy = 41A610BA41CB3C3864FEDF9A319A000C /* PBXContainerItemProxy */;
-		};
-		F23FB8F62C5A90E0013B817C665EC315 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = MyTestComponent;
-			target = AEC47BD492705E4CAE42622CD1797C52 /* MyTestComponent */;
-			targetProxy = D669CECD26FE0CBDB49652A0EECA7162 /* PBXContainerItemProxy */;
+			targetProxy = F8DB4B7B233336B0107463A36A9220A7 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -662,7 +648,7 @@
 		};
 		94C5075554778334AB5252C5FAAA69B1 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 376F772152402555C0C33F3A26817275 /* MyTestComponent.debug.xcconfig */;
+			baseConfigurationReference = 467C59592164FA07C5A0447427AF28C5 /* MyTestComponent.debug.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -897,7 +883,7 @@
 		};
 		FE7C49EBA46E12C78EE099B9F9B68192 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = A03A600B7BD68DA77E66E11F6404C891 /* MyTestComponent.release.xcconfig */;
+			baseConfigurationReference = 7ADEFB03E7C1D7AA2844ABFB2C497101 /* MyTestComponent.release.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

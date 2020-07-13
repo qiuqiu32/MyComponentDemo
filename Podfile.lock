@@ -2,15 +2,15 @@ PODS:
   - MyTestComponent (0.1.0)
 
 DEPENDENCIES:
-  - MyTestComponent (from `Lib/MyTestComponent`)
+  - MyTestComponent
 
-EXTERNAL SOURCES:
-  MyTestComponent:
-    :path: Lib/MyTestComponent
+SPEC REPOS:
+  trunk:
+    - MyTestComponent
 
 SPEC CHECKSUMS:
-  MyTestComponent: 579b4310d9fd7b8cd9b33ac0ee528b81f3ca0053
+  MyTestComponent: 055c15437a9c911a1bf8da3e2ff9dd789d613248
 
-PODFILE CHECKSUM: c798ac6704ad42063efcfe4c989477071d016aa3
+PODFILE CHECKSUM: 9e04aee6c7463287a96dfa1a187d5cbab5b27e57
 
 COCOAPODS: 1.9.3
