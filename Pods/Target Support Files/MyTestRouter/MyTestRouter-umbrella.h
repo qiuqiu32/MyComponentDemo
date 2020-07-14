@@ -10,8 +10,8 @@
 #endif
 #endif
 
-#import "QSComponent.h"
+#import "MTRouter.h"
 
-FOUNDATION_EXPORT double MyTestComponentVersionNumber;
-FOUNDATION_EXPORT const unsigned char MyTestComponentVersionString[];
+FOUNDATION_EXPORT double MyTestRouterVersionNumber;
+FOUNDATION_EXPORT const unsigned char MyTestRouterVersionString[];
 

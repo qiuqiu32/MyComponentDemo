@@ -5,8 +5,8 @@ target 'MyComponentDemo' do
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
 
-  # Pods for MyComponentDemo
-  pod 'MyTestComponent'
+  # Pods for MyComponentA
+  pod 'MyComponentA'
 
   target 'MyComponentDemoTests' do
     inherit! :search_paths

@@ -14,9 +14,9 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AEC47BD492705E4CAE42622CD1797C52"
-               BuildableName = "MyTestComponent.framework"
-               BlueprintName = "MyTestComponent"
+               BlueprintIdentifier = "BF4A52CCFA47419D7C62EC81A1BC9F31"
+               BuildableName = "MyTestRouter.framework"
+               BlueprintName = "MyTestRouter"
                ReferencedContainer = "container:Pods.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>

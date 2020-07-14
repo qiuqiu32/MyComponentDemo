@@ -1,16 +1,20 @@
 PODS:
-  - MyTestComponent (0.1.0)
+  - MyComponentA (0.1.0):
+    - MyTestRouter (~> 0.1.0)
+  - MyTestRouter (0.1.0)
 
 DEPENDENCIES:
-  - MyTestComponent
+  - MyComponentA
 
 SPEC REPOS:
   trunk:
-    - MyTestComponent
+    - MyComponentA
+    - MyTestRouter
 
 SPEC CHECKSUMS:
-  MyTestComponent: 055c15437a9c911a1bf8da3e2ff9dd789d613248
+  MyComponentA: a291904b3e6ed0b48137e612b2758855d3184c04
+  MyTestRouter: 8888a8172ffbff008aea3be7b16a2b1ae9a1a236
 
-PODFILE CHECKSUM: 9e04aee6c7463287a96dfa1a187d5cbab5b27e57
+PODFILE CHECKSUM: 6474ad698789b6f5f69185291a6b2c37a85be216
 
 COCOAPODS: 1.9.3
