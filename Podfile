@@ -6,7 +6,8 @@ target 'MyComponentDemo' do
   use_frameworks!
 
   # Pods for MyComponentA
-  pod 'MyComponentA'
+   pod 'MyComponentA','~> 0.1.1'
+  pod 'MyComponentB','~> 0.1.1'
 
   target 'MyComponentDemoTests' do
     inherit! :search_paths

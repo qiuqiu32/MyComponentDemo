@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import <MyTestRouter/MTRouter.h>
 
 @interface ViewController ()
 
@@ -32,10 +33,11 @@
 }
 -(void)clickBtn{
     
-//    MyComponentViewController *viewCtl = [[MyComponentViewController alloc ] init];
-//    if (viewCtl) {
-//        [self.navigationController pushViewController:viewCtl animated:YES];
-//    }
+
+    UIViewController *viewCtl = [[MTRouter sharedInstance] performTarget:@"MyComponentViewController" action:@"updateInfo:" arguments:[NSArray arrayWithObject:@"来自demo"] isCacheTarget:YES];
+    if (viewCtl) {
+        [self.navigationController pushViewController:viewCtl animated:YES];
+    }
     
     
 }

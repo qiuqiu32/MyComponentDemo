@@ -1,3 +1,4 @@
 ${PODS_ROOT}/Target Support Files/Pods-MyComponentDemo-MyComponentDemoUITests/Pods-MyComponentDemo-MyComponentDemoUITests-frameworks.sh
 ${BUILT_PRODUCTS_DIR}/MyComponentA/MyComponentA.framework
+${BUILT_PRODUCTS_DIR}/MyComponentB/MyComponentB.framework
 ${BUILT_PRODUCTS_DIR}/MyTestRouter/MyTestRouter.framework
